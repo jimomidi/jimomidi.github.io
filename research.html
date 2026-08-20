@@ -13,6 +13,31 @@
   .research-figure{margin:0 0 18px;}
   .research-figure img{display:block;width:100%;height:auto;border-radius:8px;border:1px solid var(--line);}
   .research-group + .research-group{margin-top:56px;}
+
+  /* Research group headings: responsive on phones only */
+  @media (max-width:700px){
+    .research-group .sub-head{
+      display:block;
+      margin:42px 0 20px;
+      width:100%;
+    }
+    .research-group:first-child .sub-head{margin-top:0;}
+    .research-group .sub-head h2{
+      white-space:normal;
+      width:100%;
+      max-width:100%;
+      min-width:0;
+      font-size:clamp(19px,5.5vw,22px);
+      line-height:1.22;
+      overflow-wrap:break-word;
+      word-break:normal;
+    }
+    .research-group .sub-head .dots{
+      width:100%;
+      height:1px;
+      margin-top:12px;
+    }
+  }
 </style>
 </head>
 <body>
