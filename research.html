@@ -1,229 +1,239 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Research — Javad Omidi, PhD</title>
-<link rel="stylesheet" href="css/style.css">
+<link href="favicon.png" rel="icon" type="image/png"/>
+<link href="favicon.ico" rel="icon" sizes="any"/>
+<link href="apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="css/style.css" rel="stylesheet"/>
+<style>
+  .research-figure{margin:0 0 18px;}
+  .research-figure img{display:block;width:100%;height:auto;border-radius:8px;border:1px solid var(--line);}
+  .research-group + .research-group{margin-top:56px;}
+</style>
 </head>
 <body>
-
 <nav>
-  <div class="wrap">
-    <a class="brand" href="index.html">
-      <img src="images/logo.jpg" alt="Javad Omidi — logo">
-      <div class="brand-text">
-        <div class="brand-title">Javad Omidi, PhD, MS</div>
-        <div class="brand-sub1">Translational &amp; Computational Oncology</div>
-        <div class="brand-sub2">Computational Biologist &middot; Postdoctoral Associate</div>
-        <div class="brand-sub3">Cornell University, Ithaca, NY, USA</div>
-      </div>
-    </a>
-    <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="research.html" class="active">Research</a>
-      <a href="publications.html">Publications</a>
-      <a href="cv.html">CV</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </div>
+<div class="wrap">
+<a class="brand" href="index.html">
+<img alt="Javad Omidi — logo" src="images/logo.jpg"/>
+<div class="brand-text">
+<div class="brand-title">Javad Omidi, PhD, MS</div>
+<div class="brand-sub1">Translational &amp; Computational Oncology</div>
+<div class="brand-sub2">Computational Biologist · Postdoctoral Associate</div>
+<div class="brand-sub3">Cornell University, Ithaca, NY, USA</div>
+</div>
+</a>
+<button aria-label="Toggle menu" class="nav-toggle"><span></span><span></span><span></span></button>
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a class="active" href="research.html">Research</a>
+<a href="publications.html">Publications</a>
+<a href="cv.html">CV</a>
+<a href="contact.html">Contact</a>
+</div>
+</div>
 </nav>
-
 <header class="page-header">
-  <div class="wrap">
-    <p class="eyebrow">Research Projects</p>
-    <h1>From canine lymphoma to human ACC</h1>
-    <p>Eleven research projects spanning comparative oncology, cancer genomics, ceRNA network biology, and psychiatric-oncology transcriptomics — at Cornell University and Columbia University.</p>
-  </div>
+<div class="wrap">
+<p class="eyebrow">Research Projects</p>
+<h1>Human cancer genomics, extended through comparative oncology</h1>
+<p>Eleven research projects spanning cancer genomics, ceRNA network biology, and psychiatric-oncology transcriptomics in humans — extended through comparative studies in canine and feline lymphoma, in pursuit of the next generation of cancer biomarkers. At Cornell University and Columbia University.</p>
+</div>
 </header>
-
 <section style="padding-top:20px;">
-  <div class="wrap">
+<div class="wrap">
+<div class="research-group">
+<div class="sub-head" style="margin-top:0;"><h2>Comparative &amp; Precision Oncology · Cornell University</h2><div class="dots"></div></div>
 
-    <div class="sub-head" style="margin-top:0;"><h2>Comparative &amp; Precision Oncology · Cornell University</h2><div class="dots"></div></div>
+<div class="project">
+<div class="project-body">
+<p class="eyebrow">Mar 2026 – Now</p>
+<h3>Cross-Species Discovery of Conserved Molecular Networks in Canine and Human B-Cell Lymphoma</h3>
+<div class="org">Supervisor: Prof. Priscila Serpa · Cornell University, Ithaca, NY, US</div>
+<ul>
+<li>103 plasma–tumor shared mutated genes identified</li>
+<li>95.35% of canine orthologs represented in human lymphoma</li>
+<li>13 conserved cancer drivers, including MYC, MTOR, ARID1A, and POT1</li>
+<li>21 conserved pathways across canine and human lymphoma</li>
+<li>RHO GTPase, PI3K–Akt, and cytoskeletal signaling strongly conserved</li>
+<li>MYC identified as the dominant protein-network hub</li>
+</ul>
+</div>
+</div>
+<div class="project">
+<div class="project-body">
+<p class="eyebrow">Mar 2026 – Now</p>
+<h3>Genome-Wide cfDNA Profiling of Tumor Heterogeneity in Canine B-Cell Lymphoma</h3>
+<div class="org">Supervisor: Prof. Priscila Serpa · Cornell University, Ithaca, NY, US</div>
+<ul>
+<li>Matched WGS profiling of plasma cfDNA, tumor, and germline DNA</li>
+<li>Tumor–plasma variant concordance ranging from 1.7–49.3% across cases</li>
+<li>174 shared mutated genes with substantial compartment-specific heterogeneity</li>
+<li>712 CNVs revealing distinct plasma and tumor genomic architectures</li>
+<li>Conserved PI3K-Akt, JAK-STAT, integrin, and oncogenic signaling pathways</li>
+<li>Plasma-specific genomic signals supporting cfDNA-based liquid biopsy</li>
+</ul>
+</div>
+</div>
+<div class="project">
+<div class="project-body">
+<p class="eyebrow">Mar 2026 – Now</p>
+<h3>Machine Learning–Based miRNA Biomarker Prioritization in Feline Intestinal Lymphoma</h3>
+<div class="org">Supervisor: Prof. Priscila Serpa · Cornell University, Ithaca, NY, US</div>
+<ul>
+<li>DEG-based ranking of candidate miRNAs</li>
+<li>Machine learning–based LGITL–IBD discrimination</li>
+<li>Cross-validated miRNA feature prioritization</li>
+<li>Selection of top candidates for qPCR validation</li>
+<li>Novel miRNA annotation and homology assessment</li>
+</ul>
+</div>
+</div>
+<div class="project">
+<div class="project-body">
+<p class="eyebrow">Mar 2026 – Now</p>
+<h3>Spatial Transcriptomics of Feline Intestinal Lymphoma and IBD</h3>
+<div class="org">Supervisor: Prof. Priscila Serpa · Cornell University, Ithaca, NY, US</div>
+<ul>
+<li>Spatial transcriptomic profiling of feline LGITL and IBD</li>
+<li>Cell- and tissue-specific differential gene expression</li>
+<li>LGITL–IBD signatures localized to CD3+ T cells</li>
+<li>FYN, BCL2, PIK3CD, and DOCK2 as lymphoma-associated candidates</li>
+<li>Candidate molecular biomarkers for LGITL–IBD differentiation</li>
+</ul>
+</div>
+</div>
+<figure class="research-figure">
+<img alt="Graphical overview of canine and feline comparative oncology projects" src="images/research/comparative-oncology.png"/>
+</figure>
+</div>
+<div class="research-group">
+<div class="sub-head"><h2>ACC Cancer Genomics &amp; ceRNA Biology · Columbia University</h2><div class="dots"></div></div>
 
-    <div class="project">
-      <div class="project-body">
-        <p class="eyebrow">Mar 2026 – Now</p>
-        <h3>Cross-Species Discovery of Conserved Molecular Networks in Canine and Human B-Cell Lymphoma</h3>
-        <div class="org">Supervisor: Prof. Priscila Serpa · Cornell University, Ithaca, NY, US</div>
-        <ul>
-          <li>103 plasma–tumor shared mutated genes identified</li>
-          <li>95.35% of canine orthologs represented in human lymphoma</li>
-          <li>13 conserved cancer drivers, including MYC, MTOR, ARID1A, and POT1</li>
-          <li>21 conserved pathways across canine and human lymphoma</li>
-          <li>RHO GTPase, PI3K–Akt, and cytoskeletal signaling strongly conserved</li>
-          <li>MYC identified as the dominant protein-network hub</li>
-        </ul>
-      </div>
-    </div>
+<div class="project">
+<div class="project-body">
+<p class="eyebrow">Nov 2024 – Oct 2025</p>
+<h3>AgomiR-466 Therapeutic Targeting of Oncogenic Pathways in ACC</h3>
+<div class="org">Columbia University, New York, NY, US</div>
+<ul>
+<li>miR-466 downregulation in ACC, stage-specific loss</li>
+<li>Survival advantage with high miR-466 expression</li>
+<li>394 upregulated oncogenic transcripts as miR-466 targets</li>
+<li>CHEK1, BUB1, MELK prioritized oncogenic drivers</li>
+<li>Stable RNA–RNA duplexes with AgomiR-466 binding</li>
+<li>Favorable HADDOCK docking scores and hydrogen bonding</li>
+<li>ADMET: safe profile, poor intestinal absorption limits</li>
+</ul>
+</div>
+</div>
+<div class="project">
+<div class="project-body">
+<p class="eyebrow">Sep 2023 – Sep 2024</p>
+<h3>Machine Learning Framework for ceRNA Network Analysis in Adrenocortical Carcinoma</h3>
+<div class="org">Columbia University, New York, NY, US</div>
+<ul>
+<li>Random Forest highest accuracy in ceRNA interaction prediction</li>
+<li>Tumor network rewiring and reduced hub connectivity observed</li>
+<li>Novel miRNA–mRNA interactions in oncogenic signaling pathways</li>
+<li>Interaction validation through TargetScan and miRTarBase databases</li>
+<li>Normal ceRNA networks denser and more structurally robust</li>
+<li>Candidate biomarkers and therapeutic targets for ACC</li>
+</ul>
+</div>
+</div>
+<div class="project">
+<div class="project-body">
+<p class="eyebrow">Oct 2022 – Dec 2024</p>
+<h3>Discovery of Central microRNAs via Systems Biology and Multi-Omics Analysis in Adrenocortical Carcinoma</h3>
+<div class="org">Columbia University, New York, NY, US</div>
+<ul>
+<li>Extensive ceRNA network rewiring between normal and tumor tissues</li>
+<li>Central hub miRNAs regulate oncogenic and tumor-suppressive pathways</li>
+<li>Stage-specific expression dynamics reveal diagnostic and prognostic potential</li>
+<li>miRNA–mRNA inverse correlations confirm regulation of key oncogenes</li>
+<li>Therapy-responsive microRNAs identified with radiotherapy-sensitive changes</li>
+<li>Candidate biomarkers proposed for prognosis and therapeutic targeting</li>
+</ul>
+</div>
+</div>
+<div class="project">
+<div class="project-body">
+<p class="eyebrow">Nov 2022 – Sep 2023</p>
+<h3>Novel Systems-Level ceRNA Network Framework for Oncogenic Biomarker Discovery in Adrenocortical Carcinoma</h3>
+<div class="org">Columbia University, New York, NY, US</div>
+<ul>
+<li>Construction of tumor-specific ceRNA regulatory network</li>
+<li>Identification of hub miRNAs: miR-466, miR-940, miR-507</li>
+<li>Integrated miRNA–mRNA filtering and inverse expression validation</li>
+<li>Prioritization of four novel oncogenic biomarkers: CKS2, ERP44, ERG28, FAM32A</li>
+<li>Multivariate survival and ROC analyses confirming clinical utility</li>
+<li>Functional annotation revealing roles in cell cycle, apoptosis, ER stress</li>
+</ul>
+</div>
+</div>
+<figure class="research-figure">
+<img alt="Graphical overview of adrenocortical carcinoma research projects" src="images/research/acc-projects.png"/>
+</figure>
+</div>
+<div class="research-group">
+<div class="sub-head"><h2>Psychiatric Transcriptomics &amp; Biomarkers · Columbia University</h2><div class="dots"></div></div>
 
-    <div class="project">
-      <div class="project-body">
-        <p class="eyebrow">Mar 2026 – Now</p>
-        <h3>Genome-Wide cfDNA Profiling of Tumor Heterogeneity in Canine B-Cell Lymphoma</h3>
-        <div class="org">Supervisor: Prof. Priscila Serpa · Cornell University, Ithaca, NY, US</div>
-        <ul>
-          <li>Matched WGS profiling of plasma cfDNA, tumor, and germline DNA</li>
-          <li>Tumor–plasma variant concordance ranging from 1.7–49.3% across cases</li>
-          <li>174 shared mutated genes with substantial compartment-specific heterogeneity</li>
-          <li>712 CNVs revealing distinct plasma and tumor genomic architectures</li>
-          <li>Conserved PI3K-Akt, JAK-STAT, integrin, and oncogenic signaling pathways</li>
-          <li>Plasma-specific genomic signals supporting cfDNA-based liquid biopsy</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="project-body">
-        <p class="eyebrow">Mar 2026 – Now</p>
-        <h3>Machine Learning–Based miRNA Biomarker Prioritization in Feline Intestinal Lymphoma</h3>
-        <div class="org">Supervisor: Prof. Priscila Serpa · Cornell University, Ithaca, NY, US</div>
-        <ul>
-          <li>DEG-based ranking of candidate miRNAs</li>
-          <li>Machine learning–based LGITL–IBD discrimination</li>
-          <li>Cross-validated miRNA feature prioritization</li>
-          <li>Selection of top candidates for qPCR validation</li>
-          <li>Novel miRNA annotation and homology assessment</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="project-body">
-        <p class="eyebrow">Mar 2026 – Now</p>
-        <h3>Spatial Transcriptomics of Feline Intestinal Lymphoma and IBD</h3>
-        <div class="org">Supervisor: Prof. Priscila Serpa · Cornell University, Ithaca, NY, US</div>
-        <ul>
-          <li>Spatial transcriptomic profiling of feline LGITL and IBD</li>
-          <li>Cell- and tissue-specific differential gene expression</li>
-          <li>LGITL–IBD signatures localized to CD3+ T cells</li>
-          <li>FYN, BCL2, PIK3CD, and DOCK2 as lymphoma-associated candidates</li>
-          <li>Candidate molecular biomarkers for LGITL–IBD differentiation</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="sub-head"><h2>Cancer Genomics &amp; Psychiatric Transcriptomics · Columbia University</h2><div class="dots"></div></div>
-
-    <div class="project">
-      <div class="project-body">
-        <p class="eyebrow">Mar 2025 – Feb 2026</p>
-        <h3>Deep Learning–Based Cross-Disease Transcriptomic Integration of ACC and Major Depressive Disorder</h3>
-        <div class="org">Columbia University, New York, NY, US</div>
-        <ul>
-          <li>30 shared dysregulated genes across ACC and MDD</li>
-          <li>HPA-axis-linked inflammatory and immune signatures</li>
-          <li>MMP9, LCN2, and PTX3 as central network mediators</li>
-          <li>Joint autoencoder for cross-disease latent representation</li>
-          <li>Shared molecular clusters transcending disease labels</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="project-body">
-        <p class="eyebrow">Nov 2024 – Oct 2025</p>
-        <h3>AgomiR-466 Therapeutic Targeting of Oncogenic Pathways in ACC</h3>
-        <div class="org">Columbia University, New York, NY, US</div>
-        <ul>
-          <li>miR-466 downregulation in ACC, stage-specific loss</li>
-          <li>Survival advantage with high miR-466 expression</li>
-          <li>394 upregulated oncogenic transcripts as miR-466 targets</li>
-          <li>CHEK1, BUB1, MELK prioritized oncogenic drivers</li>
-          <li>Stable RNA–RNA duplexes with AgomiR-466 binding</li>
-          <li>Favorable HADDOCK docking scores and hydrogen bonding</li>
-          <li>ADMET: safe profile, poor intestinal absorption limits</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="project-body">
-        <p class="eyebrow">May 2024 – Oct 2025</p>
-        <h3>Machine Learning–Optimized Blood Biomarker Panel for MDD &amp; OCD Diagnosis</h3>
-        <div class="org">Columbia University, New York, NY, US</div>
-        <ul>
-          <li>Secretory blood biomarkers prioritized for MDD &amp; OCD</li>
-          <li>Commercial ELISA kits available for all candidates</li>
-          <li>Immune-inflammatory pathways enriched in selected genes</li>
-          <li>Network analysis highlights LTF, MMP8, LCN2 hubs</li>
-          <li>Logistic regression best classifier for diagnostic stability</li>
-          <li>Strong AUC/AUPRC in internal and external validation</li>
-          <li>Identification of novel biomarkers PF4V1, FOLR3, GZMK</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="project-body">
-        <p class="eyebrow">Sep 2023 – Sep 2024</p>
-        <h3>Machine Learning Framework for ceRNA Network Analysis in Adrenocortical Carcinoma</h3>
-        <div class="org">Columbia University, New York, NY, US</div>
-        <ul>
-          <li>Random Forest highest accuracy in ceRNA interaction prediction</li>
-          <li>Tumor network rewiring and reduced hub connectivity observed</li>
-          <li>Novel miRNA–mRNA interactions in oncogenic signaling pathways</li>
-          <li>Interaction validation through TargetScan and miRTarBase databases</li>
-          <li>Normal ceRNA networks denser and more structurally robust</li>
-          <li>Candidate biomarkers and therapeutic targets for ACC</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="project-body">
-        <p class="eyebrow">Oct 2022 – Dec 2024</p>
-        <h3>Discovery of Central microRNAs via Systems Biology and Multi-Omics Analysis in Adrenocortical Carcinoma</h3>
-        <div class="org">Columbia University, New York, NY, US</div>
-        <ul>
-          <li>Extensive ceRNA network rewiring between normal and tumor tissues</li>
-          <li>Central hub miRNAs regulate oncogenic and tumor-suppressive pathways</li>
-          <li>Stage-specific expression dynamics reveal diagnostic and prognostic potential</li>
-          <li>miRNA–mRNA inverse correlations confirm regulation of key oncogenes</li>
-          <li>Therapy-responsive microRNAs identified with radiotherapy-sensitive changes</li>
-          <li>Candidate biomarkers proposed for prognosis and therapeutic targeting</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="project-body">
-        <p class="eyebrow">Nov 2022 – Sep 2023</p>
-        <h3>Novel Systems-Level ceRNA Network Framework for Oncogenic Biomarker Discovery in Adrenocortical Carcinoma</h3>
-        <div class="org">Columbia University, New York, NY, US</div>
-        <ul>
-          <li>Construction of tumor-specific ceRNA regulatory network</li>
-          <li>Identification of hub miRNAs: miR-466, miR-940, miR-507</li>
-          <li>Integrated miRNA–mRNA filtering and inverse expression validation</li>
-          <li>Prioritization of four novel oncogenic biomarkers: CKS2, ERP44, ERG28, FAM32A</li>
-          <li>Multivariate survival and ROC analyses confirming clinical utility</li>
-          <li>Functional annotation revealing roles in cell cycle, apoptosis, ER stress</li>
-        </ul>
-      </div>
-    </div>
-
-  </div>
+<div class="project">
+<div class="project-body">
+<p class="eyebrow">Mar 2025 – Feb 2026</p>
+<h3>Deep Learning–Based Cross-Disease Transcriptomic Integration of ACC and Major Depressive Disorder</h3>
+<div class="org">Columbia University, New York, NY, US</div>
+<ul>
+<li>30 shared dysregulated genes across ACC and MDD</li>
+<li>HPA-axis-linked inflammatory and immune signatures</li>
+<li>MMP9, LCN2, and PTX3 as central network mediators</li>
+<li>Joint autoencoder for cross-disease latent representation</li>
+<li>Shared molecular clusters transcending disease labels</li>
+</ul>
+</div>
+</div>
+<div class="project">
+<div class="project-body">
+<p class="eyebrow">May 2024 – Oct 2025</p>
+<h3>Machine Learning–Optimized Blood Biomarker Panel for MDD &amp; OCD Diagnosis</h3>
+<div class="org">Columbia University, New York, NY, US</div>
+<ul>
+<li>Secretory blood biomarkers prioritized for MDD &amp; OCD</li>
+<li>Commercial ELISA kits available for all candidates</li>
+<li>Immune-inflammatory pathways enriched in selected genes</li>
+<li>Network analysis highlights LTF, MMP8, LCN2 hubs</li>
+<li>Logistic regression best classifier for diagnostic stability</li>
+<li>Strong AUC/AUPRC in internal and external validation</li>
+<li>Identification of novel biomarkers PF4V1, FOLR3, GZMK</li>
+</ul>
+</div>
+</div>
+<figure class="research-figure">
+<img alt="Graphical overview of psychiatric transcriptomics and biomarker projects" src="images/research/psychiatric-projects.png"/>
+</figure>
+</div>
+</div>
 </section>
-
 <footer id="join">
-  <div class="wrap">
-    <div>
-      <p class="eyebrow" style="color:var(--eosin);">Open Science</p>
-      <h2>Curious about the data or methods behind any of these projects?</h2>
-      <a class="btn btn-primary" href="contact.html">Get in touch</a>
-    </div>
-    <div class="foot-meta">
-      <div>New York City, NY, US</div>
-      <div><a href="mailto:jo479@cornell.edu">jo479@cornell.edu</a></div>
-      <div><a href="https://www.linkedin.com/in/jim-omidi" target="_blank" rel="noopener">linkedin.com/in/jim-omidi</a></div>
-    </div>
-  </div>
-  <div class="foot-bottom">© 2026 JAVAD OMIDI</div>
+<div class="wrap">
+<div>
+<p class="eyebrow" style="color:var(--eosin);">Open Science</p>
+<h2>Curious about the data or methods behind any of these projects?</h2>
+<a class="btn btn-primary" href="contact.html">Get in touch</a>
+</div>
+<div class="foot-meta">
+<div>New York City, NY, US</div>
+<div><a href="mailto:jo479@cornell.edu">jo479@cornell.edu</a></div>
+<div><a href="https://www.linkedin.com/in/jim-omidi" rel="noopener" target="_blank">linkedin.com/in/jim-omidi</a></div>
+</div>
+</div>
+<div class="foot-bottom">© 2026 JAVAD OMIDI</div>
 </footer>
-
 <script src="js/nav.js"></script>
 </body>
 </html>
